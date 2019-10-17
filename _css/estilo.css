@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Itim&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
+
+#lateral {
+  background-color: #cecece;
+  width: 400px;
+  text-align: center;
+  padding: 10px;
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  font-family: "Itim", cursive;
+  font-size: 12;
+}
+
+#brasao-bandeira figure {
+  display: inline-block;
+  margin: auto;
+  padding: 30px;
+}
+
+#brasao-bandeira figure figcaption {
+  text-align: center;
+  margin: 10px;
+}
+
+#lateral table {
+  border: 1px solid #606060;
+  border-spacing: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#lateral table td {
+  border: 1px solid #606060;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#lateral table caption {
+  margin: 10px;
+  font-size: 13;
+}
+
+article {
+  float: left;
+}
+
+#corpo {
+  font-family: "Titillium Web", sans-serif;
+}
+
+header {
+  font-size: 18;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+#corpo p {
+  text-align: justify;
+}
+
+#menu {
+  background-color: #cecece;
+  width: 400px;
+  padding: 5px;
+}
+
+.corpo-table {
+  border: 1px solid #606060;
+  border-spacing: 0px;
+}
+
+.corpo-table td, th {
+  border: 1px solid #606060;
+  padding: 2px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.corpo-table th{
+    background-color: cadetblue;
+}
