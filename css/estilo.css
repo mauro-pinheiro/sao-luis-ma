@@ -11,7 +11,7 @@
   margin-bottom: 5px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
   font-family: "Itim", cursive;
-  font-size: 12;
+  font-size: 11pt;
 }
 
 #brasao-bandeira figure {
@@ -34,14 +34,15 @@
 
 #lateral table td {
   border: 1px solid #606060;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   vertical-align: middle;
+  font-size: 11pt;
 }
 
 #lateral table caption {
   margin: 10px;
-  font-size: 13;
+  font-size: 12pt;
 }
 
 article {
@@ -50,10 +51,11 @@ article {
 
 #corpo {
   font-family: "Titillium Web", sans-serif;
+  margin: auto;
 }
 
 header {
-  font-size: 18;
+  font-size: 18pt;
   border-bottom: 2px solid black;
   margin-bottom: 10px;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
@@ -61,6 +63,7 @@ header {
 
 #corpo p {
   text-align: justify;
+  font-size: 12pt;
 }
 
 #menu {
@@ -83,4 +86,33 @@ header {
 
 .corpo-table th{
     background-color: cadetblue;
+}
+
+#corpo figure,#div-video{
+  border: 1px solid steelblue;
+  background-color: #cecece;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  margin: 5px;
+}
+
+#corpo figure figcaption, #video-caption{
+  font-size: 10pt;
+}
+
+#corpo .esquerda{
+  float: left;
+  margin-right: 20px;
+}
+
+#corpo .direita{
+  float: right;
+  margin-left: 20px;
+}
+
+#fig-diferente{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
