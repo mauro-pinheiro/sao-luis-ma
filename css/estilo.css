@@ -8,7 +8,7 @@ body{
 
 #lateral {
   background-color: #cecece;
-  width: 400px;
+  width: 30%;
   text-align: center;
   padding: 10px;
   float: right;
@@ -48,6 +48,15 @@ body{
 #lateral table caption {
   margin: 10px;
   font-size: 12pt;
+}
+
+#montagem{
+  width: 90%;
+  margin: auto;
+}
+
+#montagem img{
+  width: 95%;
 }
 
 article {
@@ -108,7 +117,10 @@ header {
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
-  margin: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 #corpo figure figcaption, #video-caption{
