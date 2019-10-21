@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Itim&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
 
+body{
+  width: 85%;
+  margin: auto;
+}
+
 #lateral {
   background-color: #cecece;
   width: 400px;
@@ -70,11 +75,17 @@ header {
   background-color: #cecece;
   width: 400px;
   padding: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+#menu h2{
+  text-align: center;
 }
 
 .corpo-table {
   border: 1px solid #606060;
   border-spacing: 0px;
+  margin: auto;
 }
 
 .corpo-table td, th {
@@ -111,8 +122,7 @@ header {
   margin-left: 20px;
 }
 
-#fig-diferente{
+#corpo #fig-diferente{
   width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
