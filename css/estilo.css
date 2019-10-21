@@ -90,7 +90,7 @@ header {
 
 .corpo-table td, th {
   border: 1px solid #606060;
-  padding: 2px;
+  padding: 10px;
   text-align: center;
   vertical-align: middle;
 }
